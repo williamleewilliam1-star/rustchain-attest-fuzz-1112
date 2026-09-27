@@ -1,0 +1,35 @@
+{
+  "schema": "babydov.rustchain.bounty1112.fuzz.v1",
+  "target": "https://50.28.86.131/attest/submit",
+  "started_at_utc": "2026-09-27T17:35:10.271190+00:00",
+  "completed_at_utc": "2026-09-27T17:37:59.745201+00:00",
+  "total_tests": 100,
+  "total_runtime_s": 169.47,
+  "status_counts": {
+    "400": 52,
+    "422": 48
+  },
+  "category_status_counts": {
+    "missing_fields": {
+      "400": 10,
+      "422": 15
+    },
+    "wrong_types": {
+      "400": 17,
+      "422": 8
+    },
+    "oversized_input": {
+      "400": 5,
+      "422": 20
+    },
+    "injection_style": {
+      "400": 20,
+      "422": 5
+    }
+  },
+  "transport_errors": 0,
+  "server_5xx_count": 0,
+  "success_2xx_count": 0,
+  "rate_limited_429_count": 0,
+  "max_request_bytes": 32867
+}
